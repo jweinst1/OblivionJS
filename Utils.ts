@@ -13,5 +13,7 @@ class character {
     }
 }
 
+
+
 var t = new character("f");
 console.log(t.search("is fun"));
