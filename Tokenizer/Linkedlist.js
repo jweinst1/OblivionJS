@@ -15,7 +15,29 @@ var Link = (function () {
 })();
 var Unitlist = (function () {
     function Unitlist(elements) {
+        this.list = new Link(elements.shift());
+        var current = this.list;
+        while (elements.length > 0) {
+            current.rest = new Link(elements.shift());
+            current = current.rest;
+        }
     }
+    Unitlist.prototype.get = function (key) {
+        var current = this.list;
+        while (current != null) {
+            if (current.first == key)
+                return key;
+            else
+                current = current.rest;
+        }
+        throw "Index Error";
+    };
+    Unitlist.prototype.append = function (val) {
+        var current = this.list;
+        while (current != null)
+            current = current.rest;
+        current.rest = new Link(val);
+    };
     return Unitlist;
 })();
 //# sourceMappingURL=Linkedlist.js.map
