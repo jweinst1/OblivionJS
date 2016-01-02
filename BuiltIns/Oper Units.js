@@ -1,4 +1,8 @@
-/**
- * Created by Josh on 1/1/16.
- */
+var plusoper = (function () {
+    function plusoper() {
+        this.sign = "+";
+        this.units = ["I", "D"];
+    }
+    return plusoper;
+})();
 //# sourceMappingURL=Oper Units.js.map
