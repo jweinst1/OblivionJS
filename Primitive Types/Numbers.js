@@ -17,6 +17,31 @@ var integer = (function () {
     integer.prototype.divide = function (amount) {
         this.value /= amount;
     };
+    integer.prototype.remainder = function (amount) {
+        this.value %= amount;
+    };
+    integer.prototype.tostring = function () {
+        return this.value.toString();
+    };
     return integer;
+})();
+var infinity = (function () {
+    function infinity() {
+        this.value = Infinity;
+    }
+    infinity.prototype.get = function () {
+        return this.value;
+    };
+    return infinity;
+})();
+var binarynum = (function () {
+    function binarynum(value) {
+        if (value === void 0) { value = 0; }
+        this.value = value;
+    }
+    binarynum.prototype.get = function () {
+        return this.value.toString(2);
+    };
+    return binarynum;
 })();
 //# sourceMappingURL=Numbers.js.map

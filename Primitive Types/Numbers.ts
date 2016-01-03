@@ -19,4 +19,30 @@ class integer {
     divide(amount:number) {
         this.value /= amount;
     }
+    remainder(amount:number) {
+        this.value %= amount;
+    }
+    tostring():string {
+        return this.value.toString();
+    }
+}
+
+class infinity {
+    value:number;
+    constructor() {
+        this.value = Infinity;
+    }
+    get():number {
+        return this.value;
+    }
+}
+
+class binarynum {
+    value:number;
+    constructor(value:number=0) {
+        this.value = value;
+    }
+    get() {
+        return this.value.toString(2);
+    }
 }
