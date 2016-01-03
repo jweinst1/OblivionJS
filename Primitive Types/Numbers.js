@@ -39,8 +39,23 @@ var binarynum = (function () {
         if (value === void 0) { value = 0; }
         this.value = value;
     }
-    binarynum.prototype.get = function () {
+    binarynum.prototype.tostring = function () {
         return this.value.toString(2);
+    };
+    binarynum.prototype.increment = function (amount) {
+        this.value += amount;
+    };
+    binarynum.prototype.decrement = function (amount) {
+        this.value -= amount;
+    };
+    binarynum.prototype.multiply = function (amount) {
+        this.value *= amount;
+    };
+    binarynum.prototype.divide = function (amount) {
+        this.value /= amount;
+    };
+    binarynum.prototype.remainder = function (amount) {
+        this.value %= amount;
     };
     return binarynum;
 })();
