@@ -21,4 +21,17 @@ var tokenutils = (function () {
     };
     return tokenutils;
 })();
+var token = (function () {
+    function token(text, command, value) {
+        this.text = text;
+        this.command = command;
+        this.value = value;
+    }
+    return token;
+})();
+var Tokenizer = (function () {
+    function Tokenizer() {
+    }
+    return Tokenizer;
+})();
 //# sourceMappingURL=Tokenizer.js.map
