@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ec7b11-13a9-43b3-ae51-ae20e0cf72fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main/Main.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/Main.js" afterPath="$PROJECT_DIR$/Main/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/Main.js.map" afterPath="$PROJECT_DIR$/Main/Main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/Main.ts" afterPath="$PROJECT_DIR$/Main/Main.ts" />
     </list>
     <ignored path="OblivionJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/Primitive Types/Numbers.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#integer#0" expanded="false" />
               </folding>
@@ -109,8 +111,8 @@
       <file leaf-file-name="Main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7410715">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.116883114">
+              <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
               <folding>
                 <element signature="n#!!doc;n#Oblivion#0" expanded="false" />
               </folding>
@@ -122,15 +124,14 @@
         <entry file="file://$PROJECT_DIR$/Main/Main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <caret line="137" column="32" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
               <folding>
-                <marker date="1451866457000" expanded="true" signature="0:37" placeholder="/** Created by Josh on 1/3/16. ...*/" />
-                <marker date="1451866457000" expanded="true" signature="38:91" placeholder="//..." />
-                <marker date="1451866457000" expanded="true" signature="801:871" placeholder="{...}" />
-                <marker date="1451866457000" expanded="true" signature="915:985" placeholder="{...}" />
-                <marker date="1451866457000" expanded="true" signature="1029:1098" placeholder="{...}" />
-                <marker date="1451866457000" expanded="true" signature="1142:1209" placeholder="{...}" />
-                <marker date="1451866457000" expanded="true" signature="1253:1323" placeholder="{...}" />
+                <marker date="1451875347000" expanded="true" signature="0:37" placeholder="/** Created by Josh on 1/3/16. ...*/" />
+                <marker date="1451875347000" expanded="true" signature="957:1027" placeholder="{...}" />
+                <marker date="1451875347000" expanded="true" signature="1071:1141" placeholder="{...}" />
+                <marker date="1451875347000" expanded="true" signature="1185:1254" placeholder="{...}" />
+                <marker date="1451875347000" expanded="true" signature="1298:1365" placeholder="{...}" />
+                <marker date="1451875347000" expanded="true" signature="1409:1479" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -184,6 +185,7 @@
         <option value="$PROJECT_DIR$/Tokenizer/Tokenizer.ts" />
         <option value="$PROJECT_DIR$/opcodedict.js" />
         <option value="$PROJECT_DIR$/Main/OperatorDict.ts" />
+        <option value="$PROJECT_DIR$/Main/Main.js" />
         <option value="$PROJECT_DIR$/Main/Main.ts" />
       </list>
     </option>
@@ -437,7 +439,7 @@
       <recent name="$PROJECT_DIR$/Data_Structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.opcodedict.js">
+  <component name="RunManager" selected="Node.js.Main.js">
     <configuration default="false" name="Utils.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="Utils.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -445,6 +447,9 @@
       <method />
     </configuration>
     <configuration default="false" name="opcodedict.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="opcodedict.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="Main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="Main.js" working-dir="$PROJECT_DIR$/Main">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -495,16 +500,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.Utils.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.Sets.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.opcodedict.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Main.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.opcodedict.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Sets.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Utils.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Main.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.opcodedict.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Sets.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Utils.js" />
       </list>
     </recent_temporary>
   </component>
@@ -524,10 +531,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22727273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22727273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -876,15 +883,14 @@
     <entry file="file://$PROJECT_DIR$/Main/Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <caret line="137" column="32" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
           <folding>
-            <marker date="1451866457000" expanded="true" signature="0:37" placeholder="/** Created by Josh on 1/3/16. ...*/" />
-            <marker date="1451866457000" expanded="true" signature="38:91" placeholder="//..." />
-            <marker date="1451866457000" expanded="true" signature="801:871" placeholder="{...}" />
-            <marker date="1451866457000" expanded="true" signature="915:985" placeholder="{...}" />
-            <marker date="1451866457000" expanded="true" signature="1029:1098" placeholder="{...}" />
-            <marker date="1451866457000" expanded="true" signature="1142:1209" placeholder="{...}" />
-            <marker date="1451866457000" expanded="true" signature="1253:1323" placeholder="{...}" />
+            <marker date="1451875347000" expanded="true" signature="0:37" placeholder="/** Created by Josh on 1/3/16. ...*/" />
+            <marker date="1451875347000" expanded="true" signature="957:1027" placeholder="{...}" />
+            <marker date="1451875347000" expanded="true" signature="1071:1141" placeholder="{...}" />
+            <marker date="1451875347000" expanded="true" signature="1185:1254" placeholder="{...}" />
+            <marker date="1451875347000" expanded="true" signature="1298:1365" placeholder="{...}" />
+            <marker date="1451875347000" expanded="true" signature="1409:1479" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -892,7 +898,7 @@
     <entry file="file://$PROJECT_DIR$/Primitive Types/Numbers.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#integer#0" expanded="false" />
           </folding>
@@ -901,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7410715">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.116883114">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
           <folding>
             <element signature="n#!!doc;n#Oblivion#0" expanded="false" />
           </folding>
