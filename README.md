@@ -1,14 +1,25 @@
-# OblivionJS
+#OblivionJS
 
-OblivionJS is a virtual machine written in TypeScript. The VM is meant to run as a clientside script, to allow easy interpretation of
-opcodes, but can also run in a NodeJS environment. Oblivion gets it's name from the idea of a traditional structure
-being forgotten, which is what the VM and the language aims to do.
+OblivionJS is a virtual machine written in TypeScript. The VM is primarily being developed for the [Oblivion Language](https://jweinst1.gitbooks.io/the-oblivion-language/content/). However, the VM can be used for the implementation of other languages. OblivionJS uses simple, straight forward sets of opcodes, as opposed to non-readable sets of bytecodes. This way, compilers can output an ASCII string containing the opcodes, instead of containers of bytes.
 
-####Primitive Types
+###Op Code Format
 
-Oblivion supports many primitive types, such as integers, doubles, booleans, chars, and more,
+The Op codes for OblivionJS follow a three character format, followed by a `->` seperator, and then the corrseponding value associated with the code. Each opcode is sepereate by a white space. Here are the basic arithmetic codes:
 
-####Opcodes
+```
+int........creates an integer
+add........increments the integer by a number
+sub........decrements the integer by a number
+mul........multiplies the integer by a number
+div........divides the integer by a number
+rem........sets the integer equal to the modulo remainder by a number
+```
 
-Oblivion operates off a scheme of ASCII opcodes to assemble expressions.
+So here is an example:
+
+```
+int->4 add->3 mul->2
+
+This assembles the integer 14.
+```
  
