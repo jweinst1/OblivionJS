@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ec7b11-13a9-43b3-ae51-ae20e0cf72fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main/OperatorDict.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main/Main.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OblivionJS.iws" />
@@ -76,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/Main/OperatorDict.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#operatordict#0" expanded="false" />
               </folding>
@@ -88,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/Primitive Types/Numbers.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#integer#0" expanded="false" />
               </folding>
@@ -96,32 +96,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperatorDict.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OperatorDict.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/OperatorDict.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79910713">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OPCODES.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OPCODES.txt">
+      <file leaf-file-name="Main.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
+            <state vertical-scroll-proportion="-1.7410715">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <folding>
+                <element signature="n#!!doc;n#Oblivion#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Numbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Primitive Types/Numbers.js">
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/Main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-              <folding />
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <marker date="1451866457000" expanded="true" signature="0:37" placeholder="/** Created by Josh on 1/3/16. ...*/" />
+                <marker date="1451866457000" expanded="true" signature="38:91" placeholder="//..." />
+                <marker date="1451866457000" expanded="true" signature="801:871" placeholder="{...}" />
+                <marker date="1451866457000" expanded="true" signature="915:985" placeholder="{...}" />
+                <marker date="1451866457000" expanded="true" signature="1029:1098" placeholder="{...}" />
+                <marker date="1451866457000" expanded="true" signature="1142:1209" placeholder="{...}" />
+                <marker date="1451866457000" expanded="true" signature="1253:1323" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,6 +184,7 @@
         <option value="$PROJECT_DIR$/Tokenizer/Tokenizer.ts" />
         <option value="$PROJECT_DIR$/opcodedict.js" />
         <option value="$PROJECT_DIR$/Main/OperatorDict.ts" />
+        <option value="$PROJECT_DIR$/Main/Main.ts" />
       </list>
     </option>
   </component>
@@ -354,6 +365,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="OperatorDict.ts" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OblivionJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OblivionJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main.ts" />
               <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -826,31 +855,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Primitive Types/Numbers.ts">
+    <entry file="file://$PROJECT_DIR$/Main/OperatorDict.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#integer#0" expanded="false" />
-          </folding>
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/OperatorDict.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#operatordict#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/OperatorDict.js">
+    <entry file="file://$PROJECT_DIR$/Main/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79910713">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1451866457000" expanded="true" signature="0:37" placeholder="/** Created by Josh on 1/3/16. ...*/" />
+            <marker date="1451866457000" expanded="true" signature="38:91" placeholder="//..." />
+            <marker date="1451866457000" expanded="true" signature="801:871" placeholder="{...}" />
+            <marker date="1451866457000" expanded="true" signature="915:985" placeholder="{...}" />
+            <marker date="1451866457000" expanded="true" signature="1029:1098" placeholder="{...}" />
+            <marker date="1451866457000" expanded="true" signature="1142:1209" placeholder="{...}" />
+            <marker date="1451866457000" expanded="true" signature="1253:1323" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Primitive Types/Numbers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#integer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7410715">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc;n#Oblivion#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
