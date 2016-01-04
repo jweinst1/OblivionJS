@@ -65,7 +65,8 @@ input.html-text-box {background-color:ffffff;font-family:Arial;font-size:10pt;co
     var gets = document.getElementById("input").value;
     var vm = new Oblivion();
     var putin = Tokenizer.tokenize("int->5 add->4 sub->6 mul->4");
-    document.getElementById("input").value = vm.process(putin);
+    var result = JSON.stringify(vm.process(putin));
+    alert(result);
   }
 </script>
 <p>OblivionJS will also support other primitive types and common collections</p>
