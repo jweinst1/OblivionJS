@@ -58,8 +58,16 @@ This assembles the integer 14.
 textarea.html-text-box {background-color:99FFFF;background-image:url(http://);background-repeat:no-repeat;background-attachment:fixed;border-width:1;border-style:solid;border-color:99FFFF;font-family:Arial;font-size:10pt;color:0066FF;}
 input.html-text-box {background-color:ffffff;font-family:Arial;font-size:10pt;color:000000;}
 </style>
-<textarea name="comments" cols="70" rows="10" class="html-text-box" id="input">Type Machine Code.....</textarea><br><button value="Submit" class="html-text-box">Process Commands</button>
+<textarea name="comments" cols="70" rows="10" class="html-text-box" id="input">Type Machine Code.....</textarea><br><button onclick="processline()" value="Submit" class="html-text-box">Process Commands</button>
 <script src="OblivionJS/VM.js"></script>
+<script>
+  function processline() {
+    var gets = document.getElementById("input").value;
+    var vm = new Oblivion();
+    var putin = Tokenizer.tokenize("int->5 add->4 sub->6 mul->4");
+    document.getElementById("input").value = vm.process(putin);
+  }
+</script>
 <p>OblivionJS will also support other primitive types and common collections</p>
         </section>
 
