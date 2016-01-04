@@ -18,7 +18,7 @@ var Oblivion = (function () {
                     current = this.values[commands[num].code](commands[num].val);
                     break;
                 default:
-                    current = this.arithmetic[commands[num].code](parseInt(commands[num].val));
+                    current = this.arithmetic[commands[num].code](current, parseInt(commands[num].val));
                     break;
             }
         }
